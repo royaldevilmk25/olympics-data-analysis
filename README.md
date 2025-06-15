@@ -1,2 +1,53 @@
 # olympics-data-analysis
 Data Analysis 
+
+# 🏅 Olympics Data Analysis Dashboard
+
+![Olympics Banner](images/olympics-banner.png) <!-- Replace with your image path -->
+
+An interactive and insightful web dashboard to explore Olympic Games history using Python, Streamlit, and data visualization libraries like Plotly and Seaborn.
+
+---
+
+## 📂 Project Overview
+
+This project analyzes the **Olympics dataset** to uncover trends and patterns in athletes, countries, and medals over time. The dashboard allows users to interactively explore the data by year, sport, and country.
+
+> **Tech Stack:**  
+> 🐍 Python | 📊 Plotly | 📈 Seaborn & Matplotlib | 🌐 Streamlit | 🗃️ Pandas & NumPy
+
+---
+
+## 🚀 Features
+
+- 📅 Analyze participation over time
+- 🥇 View medal tallies by year and country
+- 🏃‍♀️ Explore top-performing athletes
+- 🌍 Compare countries across Olympic editions
+- 📊 Interactive visualizations with Plotly & Seaborn
+- 🎯 Clean and responsive UI via Streamlit
+
+---
+
+## 📸 Screenshots
+
+### 🔍 Nation Participation Over Time
+![Participation](images/participation-over-time.png)
+
+### 🏆 Medal Tally
+![Medal Tally](images/medal-tally.png)
+
+---
+
+## 🗃️ Dataset Source
+
+- [Kaggle – Olympic History Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
+
+---
+
+## 🛠️ How to Run the Project Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/olympics-data-analysis.git
+   cd olympics-data-analysis
