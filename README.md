@@ -3,7 +3,8 @@ Data Analysis
 
 # 🏅 Olympics Data Analysis Dashboard
 
-![Olympics Banner](images/olympics-banner.png) <!-- Replace with your image path -->
+![Olympics Banner](![olympics 1](https://github.com/user-attachments/assets/342ea63d-3cb1-4ac0-bc3e-1599d4764d49)
+) <!-- Replace with your image path -->
 
 An interactive and insightful web dashboard to explore Olympic Games history using Python, Streamlit, and data visualization libraries like Plotly and Seaborn.
 
