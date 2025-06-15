@@ -30,22 +30,6 @@ This project analyzes the **Olympics dataset** to uncover trends and patterns in
 
 ---
 
-## 📸 Screenshots
-
-### 🔍 Nation Participation Over Time
-![Participation](images/participation-over-time.png)
-
-### 🏆 Medal Tally
-![Medal Tally](images/medal-tally.png)
-
----
-
-## 🗃️ Dataset Source
-
-- [Kaggle – Olympic History Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
-
----
-
 ## 🛠️ How to Run the Project Locally
 
 1. **Clone the repository:**
