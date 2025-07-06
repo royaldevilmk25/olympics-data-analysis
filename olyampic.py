@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
+import preprocessor
 import helper
-import preprocessor, helper
+
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -10,15 +11,12 @@ import plotly.graph_objects as go
 
 
 
-df = pd.read_csv('/Users/ayushkumar/Downloads/athlete_events.csv')
-region_df = pd.read_csv('/Users/ayushkumar/Downloads/noc_regions.csv')
+df = pd.read_csv ('data/Summer-Olympic-medals-1976-to-2008.csv')
 
-
-df = preprocessor.preprocess(df, region_df)
 
 st.sidebar.title("Olympics Data Analysis")
 # st.sidebar.image('https://e7.pngegg.com/pngimages/1020/402/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
-st.sidebar.image('/Users/ayushkumar/intership/olympics_1.png')
+st.sidebar.image('images/olympics_1.png')
 user_menu = st.sidebar.radio(
     'Select An Option',
     ("Medal Tally", "Overall Analysis","Country Analysis","Athlete Analysis")
